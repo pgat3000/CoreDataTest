@@ -126,7 +126,7 @@ class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSou
         item.name = newName
         do{
             try context.save()
-            getAllItems()   
+            getAllItems()
         }catch{
         // in case of error
         }
